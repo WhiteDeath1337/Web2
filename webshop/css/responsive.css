@@ -1,0 +1,273 @@
+@media only screen and (max-width: 1200px) {
+	.management-tool-container-right-inside {
+		width: 34%;
+	}
+	/* Content 1 */
+	.motion-women-fullsize-container-inside {
+		width: 80%;
+	}
+	.motion-women-content-inside {
+		width: 95%;
+	}
+	.schuhdeal-shoes-women-first {
+		margin-left: 10px;
+		width: 23%;
+		height: 270px;
+	}
+	.motion-women-presentation {
+		height: 270px;
+	}
+	.discover-content-inside {
+		width: 25%;
+	}
+	/* Content 2 */
+	.motion-men-fullsize-container-inside {
+		width: 80%;
+	}
+	.motion-men-content-inside {
+		width: 95%;
+	}
+	.schuhdeal-shoes-men-first {
+		margin-left: 10px;
+		width: 23%;
+		height: 270px;
+	}
+	.motion-men-presentation {
+		height: 270px;
+	}
+	/* Content 3 */
+	.motion-kids-fullsize-container-inside {
+		width: 80%;
+	}
+	.motion-kids-content-inside {
+		width: 95%;
+	}
+	.schuhdeal-shoes-kids-first {
+		margin-left: 10px;
+		width: 23%;
+		height: 270px;
+	}
+	.motion-kids-presentation {
+		height: 270px;
+	}
+	.slideshow-container-inside {
+		width: 85%;
+		height: auto;
+	}
+	.slideshow-container-fullsize {
+		height: 550px;
+	}
+	.prev,
+	.next {
+		top: 35%;
+	}
+	.next {
+		right: 0%;
+		border-radius: 5px;
+	}
+	.prev {
+		border-radius: 5px;
+		left: 0%;
+	}
+	.dot {
+		bottom: 90px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.schuhdeal-logo-container-left {
+		width: 13%;
+		display: block;
+		margin: 0 auto;
+	}
+	.menu-bar {
+		display: block;
+	}
+	.management-tool-container-right {
+		position: absolute;
+		width: 13%;
+		top: 1px;
+		right: 6%;
+	}
+	.management-tool-container-right-inside {
+		width: 100%;
+	}
+	#icon {
+		display: none;
+	}
+	#search-btn {
+		cursor: pointer;
+		width: 100%;
+	}
+	.motion-women-fullsize-container-inside {
+		width: 85%;
+	}
+	.motion-women-content-inside {
+		width: 100%;
+	}
+	.discover-content-inside {
+		width: 25%;
+	}
+	p {
+		font-size: 15px !important;
+	}
+	/* content 2 */
+	.motion-men-fullsize-container-inside {
+		width: 85%;
+	}
+	.motion-men-content-inside {
+		width: 100%;
+	}
+	/* content 3 */
+	.motion-kids-fullsize-container-inside {
+		width: 85%;
+	}
+	.motion-kids-content-inside {
+		width: 100%;
+	}
+	.dot {
+		bottom: 190px;
+	}
+	.slideshow-container-inside {
+		width: 90%;
+		height: auto;
+	}
+	.schuhdeal-footer {
+		width: 100%;
+	}
+	.schuhdeal-shop-nav-container-footer {
+		width: 16%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.schuhdeal-logo-container-left {
+		width: 22%;
+		display: block;
+		margin: 0 auto;
+	}
+	.motion-women-fullsize-container-inside {
+		width: 100%;
+	}
+	.motion-women-content-inside {
+		width: 100%;
+	}
+	.schuhdeal-shoes-women-first {
+		width: 45%;
+		margin-left: 10px;
+		margin-top: 1px;
+		height: 250px;
+	}
+	.motion-women-content-inside {
+		height: 500px;
+	}
+	.motion-women-presentation {
+		height: 100%;
+	}
+	.discover-content-inside {
+		width: 28%;
+	}
+	p {
+		font-size: 13px !important;
+	}
+	/* Content 2 */
+	.motion-men-fullsize-container-inside {
+		width: 100%;
+	}
+	.motion-men-content-inside {
+		width: 100%;
+	}
+	.schuhdeal-shoes-men-first {
+		width: 45%;
+		margin-left: 10px;
+		margin-top: 1px;
+		height: 250px;
+	}
+	.motion-men-content-inside {
+		height: 500px;
+	}
+	.motion-men-presentation {
+		height: 100%;
+	}
+	/* Content 3 */
+	.motion-kids-fullsize-container-inside {
+		width: 100%;
+	}
+	.motion-kids-content-inside {
+		width: 100%;
+	}
+	.schuhdeal-shoes-kids-first {
+		width: 45%;
+		margin-left: 10px;
+		margin-top: 1px;
+		height: 250px;
+	}
+	.motion-kids-content-inside {
+		height: 500px;
+	}
+	.motion-kids-presentation {
+		height: 100%;
+	}
+	.slideshow-container-inside {
+		width: 100%;
+		height: auto;
+	}
+	.prev,
+	.next {
+		top: 32%;
+	}
+	.dot {
+		display: none;
+	}
+	.slideshow-container-fullsize {
+		height: 300px;
+	}
+	.slideshow-container {
+		height: 220px;
+	}
+	.schuhdeal-shop-nav-container-footer {
+		width: 100%;
+	}
+	.schuhdeal-about-footer {
+		margin: 0;
+		width: 100%;
+	}
+	.schuhdeal-info-footer {
+		margin: 0;
+		width: 100%;
+	}
+	.schuhdeal-social-media-footer {
+		margin: 0;
+		width: 100%;
+	}
+	footer {
+		height: auto;
+	}
+	.schuhdeal-footer {
+		width: 100%;
+		height: auto;
+	}
+	.schuhdeal-inside-footer {
+		height: auto;
+	}
+	.designed-developed-inside {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 512px) {
+	.schuhdeal-logo-container-left {
+		width: 33%;
+		display: block;
+		margin: 0 auto;
+	}
+	.discover-content-inside {
+		width: 100%;
+	}
+	p {
+		font-size: 15px !important;
+	}
+	span {
+		font-size: 12px !important;
+	}
+}

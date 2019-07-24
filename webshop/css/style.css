@@ -1,0 +1,775 @@
+body {
+	background-color: #EFF5FB !important;
+}
+
+
+/* #### Menu-icon #### */
+
+.menu-bar {
+	display: none;
+	position: absolute;
+	width: 11%;
+	height: 100px;
+	top: 0.1%;
+}
+
+.menu-bar>i {
+	cursor: pointer;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	line-height: 100px;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+}
+
+.schuhdeal-header {
+	margin: 0 auto;
+	width: 98%;
+	height: 100px;
+}
+
+.schuhdeal-header-rows {
+	margin: 0 auto;
+	width: 90%;
+	height: 100px;
+}
+
+.schuhdeal-header-fullsize {
+	width: 100%;
+	height: 100px;
+}
+
+
+/* #### Logo #### */
+
+.schuhdeal-logo-container-left {
+	display: inline-block;
+	width: 20%;
+	height: 100px;
+}
+
+.schuhdeal-logo-container-left-middle {
+	margin: 0 auto;
+	width: 90%;
+	height: 100px;
+}
+
+.schuhdeal-logo-container-fullsize {
+	width: 100%;
+	height: 100px;
+}
+
+.logo {
+	display: block;
+	margin-top: 0.7px !important;
+}
+
+.logo>a {
+	cursor: pointer;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+/* #### Management-Tool #### */
+
+.management-tool-container-right {
+	float: right;
+	width: 80%;
+	height: 100px;
+}
+
+.management-tool-container-right-inside {
+	float: right;
+	width: 25%;
+	height: 100px;
+}
+
+.management-tool-container {
+	width: 100%;
+	height: 100px;
+}
+
+.management-tool-container>i {
+	display: block;
+	float: left;
+	width: 25%;
+	line-height: 100px;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+/* #### Main #### */
+
+main {
+	width: 100%;
+	height: auto;
+}
+
+
+/* #### Slideshow #### */
+
+.slideshow-container {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	height: 600px;
+	background-color: #A4A4A4;
+}
+
+.slideshow-container-inside {
+	margin: 0 auto;
+	width: 70%;
+	height: 600px;
+}
+
+.slideshow-container-fullsize {
+	float: left;
+	width: 100%;
+	height: 600px;
+}
+
+.slider {
+	display: none;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white !important;
+	font-weight: bold;
+	font-size: 30px;
+	transition: 0.6s ease;
+	user-select: none;
+}
+
+.next {
+	right: 12%;
+	border-radius: 5px;
+}
+
+.prev {
+	border-radius: 5px;
+	left: 12%;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 1);
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+	position: relative;
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0px 2px;
+	bottom: 50px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+	background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+
+/* #### Navbar #### */
+
+.nav-content {
+	position: absolute;
+	width: 70%;
+	height: 120px;
+}
+
+.nav-content-inside {
+	width: 80%;
+	height: 55px;
+	margin: 30px auto;
+	background-color: rgb(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+
+.nav-fullsize {
+	width: 100%;
+	height: 55px;
+}
+
+.nav-left-side {
+	float: left;
+	width: 70%;
+	height: 55px;
+}
+
+nav {
+	float: left;
+	width: 100%;
+	height: 55px;
+}
+
+nav ul {
+	width: 100%;
+	height: 55px;
+}
+
+nav ul li {
+	width: 25%;
+	list-style: none;
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	text-align: center;
+	line-height: 55px;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+nav ul li a:hover {
+	transition: 1s;
+	color: black !important;
+}
+
+
+/* Registration-Btn */
+
+.reg-right-side {
+	float: left;
+	width: 30%;
+	height: 55px;
+}
+
+.reg-btn-container {
+	float: right;
+	width: 90%;
+	height: 55px !important;
+}
+
+.reg-btn p {
+	background-color: #424242;
+	text-align: center;
+	width: 100%;
+	height: 55px;
+	line-height: 55px !important;
+	border-radius: 5px !important;
+}
+
+
+/* #### Motion #### */
+
+.container-fluid {
+	margin-top: 60px;
+	width: 100%;
+	height: auto;
+}
+
+/* Page women */
+#women-navbar-container{
+	float: left;
+	margin-top: 150px;
+}
+
+.motion-women-fullsize-container {
+	width: 100%;
+	height: auto;
+}
+
+.motion-women-fullsize-container-inside {
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	background-color: #D8D8D8;
+}
+
+
+/* Header */
+
+.motion-women-header {
+	width: 100%;
+	height: 80px;
+}
+
+.motion-women-header-inside {
+	width: 100%;
+	height: 80px;
+}
+
+h1 {
+	text-align: center;
+	line-height: 80px !important;
+	text-transform: uppercase;
+	font-size: 30px !important;
+}
+
+
+/* Content 1 */
+
+.motion-women-content {
+	width: 100%;
+	height: auto;
+}
+
+.motion-women-content-inside {
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+}
+
+.motion-women-presentation {
+	width: 100%;
+	height: 300px;
+}
+
+.schuhdeal-shoes-women-first {
+	margin-left: 25px;
+	float: left;
+	width: 20%;
+	height: 300px;
+}
+
+.women-shoes {
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+}
+
+.shoe-info{
+	width: 100%;
+	height: auto;
+	background: blac;
+}
+
+.shoe-info h6{
+	display: block;
+	text-align: center;
+}
+
+.shoe-info span{
+	display: block;
+	text-align: center;
+}
+
+
+/* Cotent 2 */
+
+.motion-men-fullsize-container {
+	width: 100%;
+	height: auto;
+}
+
+.motion-men-fullsize-container-inside {
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	background-color: #D8D8D8;
+}
+
+.men-shoes {
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+}
+
+
+/* Header */
+
+.motion-men-header {
+	width: 100%;
+	height: 80px;
+}
+
+.motion-men-header-inside {
+	width: 100%;
+	height: 80px;
+}
+
+
+/* Content 2 */
+
+.motion-men-content {
+	width: 100%;
+	height: auto;
+}
+
+.motion-men-content-inside {
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+}
+
+.motion-men-presentation {
+	width: 100%;
+	height: 300px;
+}
+
+.schuhdeal-shoes-men-first {
+	margin-left: 25px;
+	float: left;
+	width: 20%;
+	height: 300px;
+}
+
+
+/* Button */
+
+.discover-content {
+	width: 100%;
+	height: 70px;
+}
+
+.discover-content-inside {
+	margin: 15px auto;
+	width: 18%;
+	height: 50px;
+	background: #424242;
+}
+
+.discover-btn {
+	width: 100%;
+	height: 50px;
+}
+
+p {
+	text-align: center;
+	line-height: 50px !important;
+	text-transform: uppercase;
+	font-weight: bold !important;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+a {
+	text-decoration: none !important;
+	color: #FFFFFF !important;
+}
+
+p:hover {
+	transition: 1s;
+	background: #000000;
+	color: #FFFFFF;
+}
+
+
+/* content 3 */
+
+.motion-kids-fullsize-container {
+	width: 100%;
+	height: auto;
+}
+
+.motion-kids-fullsize-container-inside {
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	background-color: #D8D8D8;
+}
+
+.kids-shoes {
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+}
+
+
+/* Header */
+
+.motion-kids-header {
+	width: 100%;
+	height: 80px;
+}
+
+.motion-kids-header-inside {
+	width: 100%;
+	height: 80px;
+}
+
+
+/* Content 3 */
+
+.motion-kids-content {
+	width: 100%;
+	height: auto;
+}
+
+.motion-kids-content-inside {
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+}
+
+.motion-kids-presentation {
+	width: 100%;
+	height: 300px;
+}
+
+.schuhdeal-shoes-kids-first {
+	margin-left: 25px;
+	float: left;
+	width: 20%;
+	height: 300px;
+}
+
+
+/* Footer */
+
+footer {
+	margin-top: 70px !important;
+	position: absolute;
+	width: 100%;
+	height: 465px;
+	background-color: #BDBDBD;
+}
+
+.schuhdeal-footer {
+	margin: 0 auto;
+	width: 78.5%;
+	height: 400px;
+}
+
+.schuhdeal-inside-footer {
+	margin: 0 auto;
+	width: 100%;
+	height: 400px;
+}
+
+h4 {
+	width: 100%;
+	height: 40px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold !important;
+	font-size: 20px !important;
+}
+
+.footer-span {
+	display: block;
+	line-height: 50px !important;
+	text-align: center !important;
+	color: #FFFFFF;
+	font-weight: bold !important;
+}
+
+.arrow-up{
+	position: absolute;
+	width: 3%;
+	height: 50px;
+	background-color: #848484;
+	right: 2%;
+}
+
+.arrow-up-inside{
+	width: 100%;
+	height: 50px;
+}
+
+.arrow-up-inside i{
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+
+/* Shop - Footer */
+
+.schuhdeal-shop-nav-container-footer {
+	margin-top: 50px !important;
+	float: left;
+	width: 15%;
+	height: 230px;
+}
+
+.schuhdeal-shop-nav-container-footer ul {
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+.schuhdeal-shop-nav-container-footer ul li {
+	width: 100%;
+	list-style: none;
+}
+
+.schuhdeal-shop-nav-container-footer ul li a {
+	display: block;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	line-height: 35px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+/* About Schuhdeal */
+
+.schuhdeal-about-footer {
+	margin-top: 50px !important;
+	float: left;
+	width: 20%;
+	height: 230px;
+	margin-left: 20px;
+}
+
+.schuhdeal-about-footer ul {
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+.schuhdeal-about-footer ul li {
+	width: 100%;
+	list-style: none;
+}
+
+.schuhdeal-about-footer ul li a {
+	display: block;
+	text-decoration: none !important;
+	line-height: 35px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+
+/* Info Schuhdeal */
+
+.schuhdeal-info-footer {
+	margin-top: 50px !important;
+	float: left;
+	width: 20%;
+	height: 230px;
+	margin-left: 20px;
+}
+
+.schuhdeal-info-footer ul {
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+.schuhdeal-info-footer ul li {
+	width: 100%;
+	list-style: none;
+}
+
+.schuhdeal-info-footer ul li a {
+	display: block;
+	text-decoration: none !important;
+	line-height: 35px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+
+/* Social-Media Schuhdeal */
+
+.schuhdeal-social-media-footer {
+	margin-top: 50px !important;
+	float: left;
+	width: 28%;
+	height: 150px;
+	margin-left: 72px;
+}
+
+.schuhdeal-social-media-footer i {
+	float: left;
+	display: block;
+	line-height: 70px;
+	width: 20%;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+#facebook:hover {
+	color: blue;
+}
+
+#twitter:hover {
+	color: blue;
+}
+
+#instagram:hover {
+	color: blue;
+}
+
+.designed-developed {
+	float: left;
+	width: 100%;
+	height: 50px;
+}
+
+
+/* Designed and Developed by */
+
+.designed-developed-inside {
+	margin: 0 auto;
+	width: 78.5%;
+	height: 50px;
+}
+
+.designed-developed-finsih {
+	width: 100%;
+	height: 50px;
+}
+
+
+
+
